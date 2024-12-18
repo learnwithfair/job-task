@@ -2,22 +2,26 @@
 ## Environment setup 
 
 - create .env file
-- change database name (mysql)
+- set database name (mysql)
+- php command 
+```bash
+php artisan serve
+```
 
 ## Task-1  Blog Post CRUD API 
-- For Create a Post 
+1. For Create a Post 
 
 ```bash
 http://127.0.0.1:8000/api/create-post
 
 ```
-- For List All Posts
+2. For List All Posts
 
 ```bash
 http://127.0.0.1:8000/api/posts
 
 ```
-- For View a Single Post
+3. For View a Single Post
 
 ```bash
 http://127.0.0.1:8000/api/posts/1
@@ -35,21 +39,21 @@ http://127.0.0.1:8000/api/create-user
 
 ## Task-3 Management API 
 
-- For Add a Task
+1. For Add a Task
 
 ```bash
 http://127.0.0.1:8000/api/create-tasks
 
 ```
 
-- Show All task (Mark Task as Completed
+2. Show All task (Mark Task as Completed
 )
 
 ```bash
 http://127.0.0.1:8000/api/showall-tasks
 
 ```
-- Get Pending Tasks
+3.  Get Pending Tasks
 
 ```bash
 http://127.0.0.1:8000/api/tasks/pending
